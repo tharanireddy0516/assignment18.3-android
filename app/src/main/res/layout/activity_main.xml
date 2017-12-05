@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!--xml layer starts here
+xml stands for extensible markup language
+it is a background code of layouts,widges etc-->
+<!--Relative layout is one of the types of layout
+It enables to specify the location of child objects relative to each other
+layout_width indicates the width of the relative layout
+layout_Height indicates the height of the relative layout
+context indicates the package name of the respective java class
+match parent will take complete height or width of text
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.tharani.broadcastnotification.MainActivity">
+    <!--Button is a widget or view
+        fill_parent fills the enter width content
+        layout_alignParentTop,layout_centerHorizontal,layout_marginTop,layout_marginLeft,
+        layout_marginRight indicates the directions of text
+        login button was taken by providing proper textColor,ems,background-->
+    <Button
+    android:id="@+id/btnInboxStyleNotification"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/btn_default"
+    android:gravity="center_horizontal|center_vertical"
+    android:onClick="sendInboxStyleNotification"
+    android:text="@string/inbox_style_notification"
+    android:textColor="#000000"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="220dp" />
+</RelativeLayout><!--Relative layout ends here-->
