@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">BroadcastNotification</string>
-    <string name="inbox_style_notification">Inbox Style Notification</string>
     <string name="handler">tvHandleNotification</string>
     <string name="title_activity_main">Notification</string>
     <string name="inbox_style_notification">Inbox Style Notification</string>
